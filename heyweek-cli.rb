@@ -5,20 +5,20 @@
 class HeyweekCli < Formula
   desc "Heyweek CLI"
   homepage "https://heyweek.com"
-  version "1.4.16"
+  version "1.4.17"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.4.16/Heyweek_v1.4.16_macOS_amd64.zip", using: CurlDownloadStrategy
-    sha256 "8a434112e52dd87794102aac44aec1b4e32a190c3112e955d45a51e657cdbf63"
+    url "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.4.17/Heyweek_v1.4.17_macOS_amd64.zip", using: CurlDownloadStrategy
+    sha256 "64ba4374cca6621073c406caf6239b620afc2301fcc58215cddf326d1471ca01"
 
     def install
       bin.install "bin/hw"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.4.16/Heyweek_v1.4.16_macOS_arm64.zip", using: CurlDownloadStrategy
-    sha256 "10f11da11dbf170823d717fd336924726d20c213c1859523b13d58c7570ea9e1"
+    url "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.4.17/Heyweek_v1.4.17_macOS_arm64.zip", using: CurlDownloadStrategy
+    sha256 "ae84562269acf1525850e0526cd885a92144c8e652006e82e71cadb5a067fa02"
 
     def install
       bin.install "hw"
