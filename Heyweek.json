@@ -1,26 +1,26 @@
 {
-    "version": "1.10.1",
+    "version": "1.11.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.10.1/Heyweek_v1.10.1_windows_i386.zip",
+            "url": "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.11.0/Heyweek_v1.11.0_windows_i386.zip",
             "bin": [
-                "Heyweek_v1.10.1_windows_i386/hw.exe"
+                "Heyweek_v1.11.0_windows_i386/hw.exe"
             ],
-            "hash": "907c8310cf01e9e1744d1cba31f7cfe005b213d71f0d036b3cfd08d34b24eea8"
+            "hash": "db362460c9e917b28ee70970ac375425df7403dfed32707ea9b022a34092928c"
         },
         "64bit": {
-            "url": "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.10.1/Heyweek_v1.10.1_windows_x86_64.zip",
+            "url": "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.11.0/Heyweek_v1.11.0_windows_x86_64.zip",
             "bin": [
-                "Heyweek_v1.10.1_windows_x86_64/hw.exe"
+                "Heyweek_v1.11.0_windows_x86_64/hw.exe"
             ],
-            "hash": "23c619ef4d465e07493860efdbeae036fcaa64eccb9a715a406478c2fbed030a"
+            "hash": "04321f967776d6e52000d90d46ea9c8fdc92452cc146a652d6bedb4f64c65018"
         },
         "arm64": {
-            "url": "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.10.1/Heyweek_v1.10.1_windows_arm64.zip",
+            "url": "https://github.com/heyweek/homebrew-heyweek-cli/releases/download/v1.11.0/Heyweek_v1.11.0_windows_arm64.zip",
             "bin": [
-                "Heyweek_v1.10.1_windows_arm64/hw.exe"
+                "Heyweek_v1.11.0_windows_arm64/hw.exe"
             ],
-            "hash": "d780af95c314d6457d1c648e911842b955f0671002315260274576c9dba2d689"
+            "hash": "6a8b0bca5168c3bd6d9dfa59fd9538f5805dfe811d241054ec313e3048410af0"
         }
     },
     "homepage": "https://heyweek.com",
